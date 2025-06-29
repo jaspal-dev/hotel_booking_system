@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hotel Room Reservation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Hotel Room Reservation</h1>
+    <div id="panel">
+      <label>
+        Rooms needed (max 5)
+        <input
+          id="count"
+          type="number"
+          min="1"
+          max="5"
+          value="1"
+          style="width: 60px"
+        />
+      </label>
+      <button id="bookBtn">Book</button>
+      <button id="randBtn">Random Occupancy</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <div id="status"></div>
+
+    <div id="hotel"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

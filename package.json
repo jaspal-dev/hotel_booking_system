@@ -1,0 +1,19 @@
+{
+  "name": "unstop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"no build specified\"",
+    "dev": "netlify dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "serverless-http": "^3.2.0",
+    "netlify-cli": "^22.2.1"
+  },
+  "devDependencies": {}
+}
